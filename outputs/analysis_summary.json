@@ -1,0 +1,124 @@
+{
+  "raw_shape": [
+    182,
+    5
+  ],
+  "clean_shape": [
+    180,
+    6
+  ],
+  "raw_types": {
+    "transaction_id": "object",
+    "date": "object",
+    "category": "object",
+    "units": "float64",
+    "unit_price_usd": "float64"
+  },
+  "clean_types": {
+    "transaction_id": "object",
+    "date": "datetime64[ns]",
+    "category": "object",
+    "units": "int64",
+    "unit_price_usd": "float64",
+    "revenue_usd": "float64"
+  },
+  "missing": {
+    "transaction_id": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "date": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "category": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "units": {
+      "count": 4,
+      "percent": 2.197802197802198
+    },
+    "unit_price_usd": {
+      "count": 0,
+      "percent": 0.0
+    }
+  },
+  "duplicates": 2,
+  "stats": {
+    "count": 180,
+    "mean": 127.27777777777777,
+    "median": 80.0,
+    "modes": [
+      60.0
+    ],
+    "min": 15.0,
+    "max": 480.0,
+    "range": 465.0,
+    "q1": 56.25,
+    "q3": 160.0,
+    "iqr": 103.75,
+    "sample_variance": 14540.034140285536,
+    "population_variance": 14459.256172839505,
+    "sample_std": 120.58206392447235,
+    "population_std": 120.24664724157387,
+    "lower_fence": -99.375,
+    "upper_fence": 315.625,
+    "outliers": 22,
+    "units_price_corr": 0.013343308258977428
+  },
+  "categories": [
+    {
+      "category": "Electronics",
+      "transactions": 43,
+      "units": 151,
+      "revenue_usd": 12080.0
+    },
+    {
+      "category": "Clothing",
+      "transactions": 75,
+      "units": 253,
+      "revenue_usd": 7590.0
+    },
+    {
+      "category": "Accessories",
+      "transactions": 62,
+      "units": 216,
+      "revenue_usd": 3240.0
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2025-01",
+      "revenue_usd": 4775.0
+    },
+    {
+      "month": "2025-02",
+      "revenue_usd": 3285.0
+    },
+    {
+      "month": "2025-03",
+      "revenue_usd": 3425.0
+    },
+    {
+      "month": "2025-04",
+      "revenue_usd": 3975.0
+    },
+    {
+      "month": "2025-05",
+      "revenue_usd": 3820.0
+    },
+    {
+      "month": "2025-06",
+      "revenue_usd": 3630.0
+    }
+  ],
+  "versions": {
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.9",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.6.1"
+  }
+}
